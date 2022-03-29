@@ -1,3 +1,5 @@
+Tray Racers Presskit Guide by James   !
+-----------------------------------\\[-j-]
 
 To make changes to the presskit you will need:
 
@@ -20,3 +22,8 @@ Making it live:
 - make sure not to delete the data folder!
 - now delete the build folder and push the git repo
 - go to trayracers.com to see the changes, can take an hour to appear
+
+
+More info here:
+
+https://github.com/pixelnest/presskit.html
