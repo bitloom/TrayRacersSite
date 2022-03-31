@@ -1,6 +1,6 @@
-<!-- COMPANY -->
-
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- COMPANY -->
 
 <company>
   <title>Bit Loom</title>
@@ -19,6 +19,10 @@
       <link>https://twitter.com/bitloomgames</link>
     </social>
   </socials>
+
+  <description>
+      Bit Loom is Douglas, Henry and James. Three friends who love making games that surprise and delight players. Bit Loom's debut game PHOGS! took players on a double-ended dog adventure across three strange worlds published by Coatsink. They are self-publishing their next game Tray Racers.
+  </description>
 
   <press-contact>info@bitloomgames.com</press-contact>
 

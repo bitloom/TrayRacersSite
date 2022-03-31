@@ -1,43 +1,14 @@
-<!-- # Product — presskit.html -->
-
-<!--
-  **This is your product or game page**. It should focus on _ONLY_ one product. This is not a replacement for your product's website, but a quick way for the press to know it faster.
-
-  If you don't have a `data.xml` yet, the easiest way to start is to run this command in your presskit folder:
-
-  ```bash
-  presskit new -t product
-  ```
-
-  Then, open the generated `data.xml` file and fill the blanks while following this guide.
-
-  <hr>
-
-  For your company' `data.xml`, [refer to the company documentation](../company/).
-
-  <hr>
--->
-
-<!-- Don't forget to set your XML header correctly. -->
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--
-  Use a `<product>` or `<game>` tag.
--->
+<!-- TRAY RACERS -->
+
 <product>
   <!-- ## General Information -->
 
   <!-- Begin with your product name, website, and miscellaneous information. -->
-  <title>Tray Racers!</title>
+  <title>Tray Racers</title>
   <website>http://www.trayracers.com</website>
 
-  <socials>
-    <social>
-      <name>Twitter @TrayRacers</name>
-      <link>https://twitter.com/trayracers</link>
-    </social>
-  </socials>
-  
   <!-- You can also add an URL to a request page for this product. A button will be displayed on the page. -->
   <!--
   <press-copy-request>
@@ -61,110 +32,46 @@
   </partners>
   -->
 
-  <!-- Add as many dates, platforms and prices as needed. -->
   <release-dates>
-    <release-date>March 2023</release-date>
+    <release-date>Early 2023 simultaneous release</release-date>
   </release-dates>
 
-  <!--
-    Put all the platforms your product is available on.
-
-    `<link>` tag is optional.
-  -->
   <platforms>
     <platform>
-      <name>PC (itch.io)</name>
-      <link>https://bitloomgames.itch.io/trayracers</link>
+        <name>Steam (PC)</name>
+        <link>https://store.steampowered.com/app/1913870/Tray_Racers/?beta=1</link>
     </platform>
     <platform>
-      <name>Steam</name>
-      <link>https://store.steampowered.com/app/1913870/Tray_Racers/?beta=1</link>
+        <name>Nintendo Switch</name>
+        <!-- ADD NINTENDO STORE URL TO TRAY RACERS. -->
     </platform>
     <platform>
-      <name>Nintendo Switch</name>
-      <!-- ADD NINTENDO STORE URL TO TRAY RACERS. -->
+        <name>Itch.io (PC)</name>
+        <link>https://bitloomgames.itch.io/trayracers</link>
     </platform>
   </platforms>
 
-  <!-- Show the price of your product. Try to be exhaustive, it will be helpful for a reviewer. -->
   <prices>
     <price>
-      <currency>BASE GAME</currency>
+      <currency>Base game</currency>
       <value>FREE</value>
     </price>
     <price>
-      <currency>DLC GBP</currency>
+      <currency>Supporters pack GBP</currency>
       <value>4.99</value>
     </price>
   </prices>
 
-  <!-- ## Relations -->
-
-  <!--
-    You can specify relations between products using the `<relations>` tag.
-
-
-    Then, on this page product, you will see a new line in the factsheet:
-
-    ```
-    DLC:
-    My Super Game: Ultimate Edition
-    ```
-
-    Of course, the `Product Name` value is clickable.
-
-    In the related product page, a new value will also be added:
-
-    ```
-    DLC of:
-    My Super Game
-    ```
-
-    _Obviously, since the name we provide in the example is not a real product (ie., the product data.xml does not exist), this tag will be ignored for this page._
-
-    You can have as many relations as you want. You can use it to show DLCs, expansions, sequels, prequels, etc.
-
-    **Warning**: you need to rebuild the presskit to see the changes.
-  -->
-  <!--
-  <relations>
-    <relation>
-      <type>DLC</type>
-      <product>My Super Game: Ultimate Edition</product>
-    </relation>
-  </relations>
-  -->
-
-  <!-- ## Description & History -->
-
-  <!-- Describe your product here. Be brief. -->
   <description>
-    The world ended…But the fun didn’t! Race your pals across the adorable post-apocalyptic world of Tray Racers! Grab a tray, surf the dunes, and get ready to SLIDE, DRIFT and TRICK your way to the finish line in this cute &amp; colorful party racer, built for online multiplayer! YAHOOOOOO!
+      The world ended…But the fun didn’t! Race your pals across the adorable post-apocalyptic world of Tray Racers! Grab a tray, surf the dunes, and get ready to SLIDE, DRIFT and TRICK your way to the finish line in this cute &amp; colorful party racer, built for online multiplayer! YAHOOOOOO! 
+      
+      Every race takes place on a unique, randomly-generated track - with weird and wonderful vistas, hazards, creatures, and surprises from a mix of bizarre &amp; beautiful post-apocalyptic biomes.
   </description>
 
-  <!--
-    Tell the story of your product with the `<history>` tag.
-
-    You have two possibilities here.
-
-    - Use an `<history>` block like in the example.
-    - Or use an `<histories>` block if you have tons of things to say.
-
-    You can't have both.
-
-    You can see an example of the `<histories>` block in the company page.
-  -->
   <history>
     After the success of our debut game PHOGS! the three of us at Bit Loom began prototyping various smaller projects. What began as a joke game called "Ray Tracer's Tray Racing" quickly became a fun prototype for this party racing game.
   </history>
 
-  <!-- ## Features -->
-
-  <!--
-    Show the most important features of your product.
-
-    Focus on what is really important and is a key aspect of it.
-  -->
   <features>
     <feature>
       Surf the dunes on your very own tray
@@ -185,45 +92,32 @@
       Perfect for parties with pals 💛
     </feature>
     <feature>
-      With two awesome race modes: Freestyle Race and Daily Race
+      Two awesome race modes: Freestyle Race and Daily Race
     </feature>
+      <feature>
+          Hang out with friends between races at the chilled-out Camp lobby
+      </feature>
+      <feature>
+          Pet *everything* with a dedicated ‘pet-the-thing’ button
+          (There’s a lizard in the Camp called Scrump and we love them…)
+      </feature>
   </features>
 
   <!-- ## Trailers -->
 
   <!--
-    Add your videos. Trailer, teaser, snippets? Let's roll!
-
-    You can use YouTube and/or Vimeo. Only one is needed, and only one is recommended.
-
-    Don't put the full link: just the ID is necessary.
-
-    If you want to provide a link to download the video, add this tag in `<trailer>`:
-
-    ```
-    <download>https://example.com/video.mp4</download>
-    ```
-  -->
-  <!--
   <trailers>
     <trailer>
-      <name>Release Trailer</name>
+      <name>Tray Racers reveal trailer</name>
       <youtube>EtXajayBLzw</youtube>
     </trailer>
     <trailer>
-      <name>Gameplay Video #2</name>
-      <youtube>EPNK1j3TMjU</youtube>
-    </trailer>
-    <trailer>
-      <name>Early Access Trailer</name>
-      <youtube>EtyQMcc19xY</youtube>
-    </trailer>
-    <trailer>
-      <name>Short gameplay preview: Burger vs Pizza</name>
+      <name>Download reveal trailer</name>
       <download>https://github.com/pixelnest/presskit.html</download>
     </trailer>
   </trailers>
   -->
+    
   <!-- ## Widgets -->
 
   <!--
@@ -247,112 +141,7 @@
     <bandcamp>1135613467</bandcamp>
   </widgets>
   -->
-  
-  <!-- ## Awards, quotes & links -->
 
-  <!--
-    You got awards for this product? Great! Put them here.
-
-    **Optional.**
-  -->
-  <!--
-  <awards>
-    <award>
-      <description>Game of the year without a doubt</description>
-      <info>Saint-Père-Marc-En-Poulet (France), 04 February, 2016</info>
-    </award>
-    <award>
-      <description>Best soundtrack</description>
-      <info>A great game festival (World), 01 October, 2015</info>
-    </award>
-    <award>
-      <description>Best MYGAMENGINE game</description>
-      <info>Deep into the woods (Forest), 31 March, 2014</info>
-    </award>
-  </awards>
-  -->
-
-  <!--
-    Quotes are used to show the appreciation of your users.
-
-    Show something important, something nice, or something funny, for example.
-
-    **Optional.**
-  -->
-  <!--
-  <quotes>
-    <quote>
-      <description>This is my favorite game of all time.</description>
-      <name>Mum</name>
-      <website>At home</website>
-      <link>http://at.home/</link>
-    </quote>
-    <quote>
-      <description>A very serious quote you're very proud of by someone you respect.</description>
-      <name>Master</name>
-      <website>Master's website</website>
-      <link>http://mast.er/</link>
-    </quote>
-    <quote>
-      <description>10/10 would play it again and again.</description>
-      <name>A friendly anonymous Steam reviewer</name>
-      <website>Steam review</website>
-      <link>http://steam.review/</link>
-    </quote>
-  </quotes>
-  -->
-
-  <!--
-    Need to link to a resource? A small product? An RSS feed? An OST?
-
-    A press release?
-
-    Put those here, in the `<additionals>` tag.
-
-    **Optional.**
-  -->
-  <!--
-  <additionals>
-    <additional>
-      <title>Original Soundtrack (OST)</title>
-      <description>Composed by an awesome musician. Listen for free, download for $3 at</description>
-      <link>http://zandernoriega.bandcamp.com/album/steredenn-original-soundtrack</link>
-    </additional>
-    <additional>
-      <title>Release announcement</title>
-      <description>Announcement are exciting, so we usually make blog posts or news about it on</description>
-      <link>http://pixelnest.io/journal/</link>
-    </additional>
-  </additionals>
-  -->
-
-  <!-- ## About -->
-
-  <!--
-    An "About Your Company" section is automatically generated from the content of the company page.
-
-    This <abouts> tag is completely **optional**. If you don't want this section, just delete it. But sometimes, you want to add a description for a partner.
-
-    This is this the place to do it.
-
-    For example, if you have a publisher, you can speak a bit more about it here.
-
-    Most of the time, you should link that to the <partner> tag above, if you want to explain a partner a bit more. But you could use this section for other purpose.
-
-    The <link> tag is optional.
-  -->
-
-  <!-- ## Team & Contacts -->
-
-  <!--
-    This is for the product team.
-
-    Add yourself, of course, but also your collaborators, freelancers and/or partners for example.
-
-    The `<role>` tag can be anything you want. But we recommend to, at least, put the company name for the founders/employees. This will distinguish this person from the external collaborators.
-
-    The `<website>` tag is optional.
-  -->
   <credits>
     <credit>
       <person>Douglas</person>
@@ -368,16 +157,9 @@
     </credit>
   </credits>
 
-  <!--
-    Add more contact information.
-
-    Add links to your product social accounts, as well as mail specific to this product. And the website.
-
-    For each item, pick one between a `<link>` and `<mail>` tag.
-  -->
   <contacts>
     <contact>
-      <name>Inquiries</name>
+      <name>Enquiries</name>
       <mail>info@bitloomgames.com</mail>
     </contact>
     <contact>
@@ -387,12 +169,13 @@
       </link>
     </contact>
     <contact>
+      <name>Twitter @TrayRacers</name>
+      <link>https://twitter.com/trayracers</link>
+    </contact>
+    <contact>
       <name>Our previous game: PHOGS!</name>
-      <link>
-        https://playphogs.com
-      </link>
+      <link>https://playphogs.com</link>
     </contact>
   </contacts>
 
-<!-- All done! 🍾 -->
 </product>
