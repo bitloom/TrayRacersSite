@@ -210,17 +210,3 @@ a {
     position: relative;
     bottom: 0;
 }
-
-@media screen and (min-width: 800px) {
-    .overviewCaption {
-        font-size: 1em;
-    }
-
-    .overviewText {
-        font-size: 1em;
-    }
-
-    #footerContents {
-        font-size: 1em;
-    }
-}
