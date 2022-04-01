@@ -15,28 +15,31 @@ html, body {
     margin-right: 0;
     overflow: auto;
     overflow-x: hidden;
+    font-size: 1.2em;
 }
 
 a {
     text-decoration: underline;
     color: white;
-    font-size: 1.25em;
     cursor: caret;
 }
 
     a:hover {
-        color: #3c61c6;
+        color: pink;
     }
 
 #bannerBackground {
     width: 100%;
+    height: max-content;
     background-image: url("../images/headerBackground.png");
     background-repeat: repeat no-repeat;
+    background-size: auto 100%;
 }
 
 #banner {
+    height: max-content;
     max-height: 75%;
-    max-width: 800px;
+    max-width: 1200px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -46,11 +49,11 @@ a {
 }
 
 .bodyLink {
-    color: #983881;
+    color: cornflowerblue;
 }
 
     .bodyLink:hover {
-        color: #d15bd3;
+        color: lightskyblue;
     }
 
 .bannerImage {
@@ -151,7 +154,6 @@ a {
 .overviewCaption {
     padding-top: 1.0vw;
     padding-bottom: 1.0vw;
-    font-size: 2.75vw;
     font-weight: bold;
     width: 90%;
     text-align: center;
@@ -161,7 +163,6 @@ a {
 .overviewText {
     padding-top: 1.0vw;
     padding-bottom: 1.0vw;
-    font-size: 2.75vw;
     width: 90%;
     text-align: justify;
     text-align-last: center;
@@ -187,7 +188,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 2.5vw;
 }
 
 .tab {
@@ -213,14 +213,14 @@ a {
 
 @media screen and (min-width: 800px) {
     .overviewCaption {
-        font-size: 25px;
+        font-size: 1em;
     }
 
     .overviewText {
-        font-size: 25px;
+        font-size: 1em;
     }
 
     #footerContents {
-        font-size: 20px;
+        font-size: 1em;
     }
 }
