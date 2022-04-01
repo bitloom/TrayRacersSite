@@ -28,9 +28,15 @@ a {
         color: #3c61c6;
     }
 
+#bannerBackground {
+    width: 100%;
+    background-image: url("../images/headerBackground.png");
+    background-repeat: repeat no-repeat;
+}
+
 #banner {
     max-height: 75%;
-    max-width: 100%;
+    max-width: 800px;
     width: auto;
     margin-left: auto;
     margin-right: auto;
