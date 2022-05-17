@@ -6,7 +6,7 @@
   <!-- ## General Information -->
 
   <!-- Begin with your product name, website, and miscellaneous information. -->
-  <title>Tray Racers</title>
+  <title>Tray Racers!</title>
   <website>http://www.trayracers.com</website>
 
   <!-- You can also add an URL to a request page for this product. A button will be displayed on the page. -->
@@ -33,31 +33,31 @@
   -->
 
   <release-dates>
-    <release-date>Early 2023 simultaneous release</release-date>
+    <release-date>2023</release-date>
   </release-dates>
 
   <platforms>
     <platform>
         <name>Steam (PC)</name>
-        <link>https://store.steampowered.com/app/1913870/Tray_Racers/?beta=1</link>
+        <link>https://store.steampowered.com/app/1913870/Tray_Racers/</link>
     </platform>
     <platform>
         <name>Nintendo Switch</name>
         <!-- ADD NINTENDO STORE URL TO TRAY RACERS. -->
     </platform>
-    <platform>
+    <!--<platform>
         <name>Itch.io (PC)</name>
         <link>https://bitloomgames.itch.io/trayracers</link>
-    </platform>
+    </platform>-->
   </platforms>
 
   <prices>
     <price>
-      <currency>Base game</currency>
+      <currency>Base Game</currency>
       <value>FREE</value>
     </price>
     <price>
-      <currency>Supporters pack GBP</currency>
+      <currency>Supporter's Pack GBP</currency>
       <value>4.99</value>
     </price>
   </prices>
@@ -107,8 +107,8 @@
 
   <trailers>
     <trailer>
-      <name>Tray Racers reveal trailer</name>
-      <youtube>PeUWn0J-RXQ</youtube>
+      <name>Tray Racers! Reveal Trailer</name>
+      <youtube>UIgMywPEWuM</youtube>
     </trailer>
   </trailers>
     
