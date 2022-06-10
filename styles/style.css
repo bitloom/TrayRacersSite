@@ -24,8 +24,7 @@ html, body {
     margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    overflow: auto;
-    overflow-x: hidden;
+    overflow: visible;
     font-size: 1.2em;
 }
 
@@ -68,6 +67,7 @@ a {
     min-width: 100%;
     margin-left: 50%;
     transform: translateX(-50%);
+    overflow: hidden;
 }
 
 #overview {
