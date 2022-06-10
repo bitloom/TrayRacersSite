@@ -39,24 +39,18 @@ a {
         color: var(--lightTextHover);
     }
 
-#bannerBackground {
-    width: 100%;
-    height: max-content;
-    background-image: url("../images/headerBackground.png");
-    background-repeat: repeat no-repeat;
-    background-size: auto 100%;
-}
-
 #banner {
-    height: max-content;
-    max-height: 75%;
-    max-width: 1200px;
-    width: auto;
+    width: 100%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    top: 0;
 }
 
 .bodyLink {
@@ -67,14 +61,18 @@ a {
         color: var(--linkTextHover);
     }
 
-.bannerImage {
-    width: 100%;
-    height: auto;
+#bannerImage {
+    height: 85vh;
+    width: auto;
+    min-height: 39.0625vw;
+    min-width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 #overview {
     position: relative;
-    top: -5vw;
+    top: 60vh;
     color: var(--darkText);
     background-color: var(--sandyForeground);
     text-align: center;

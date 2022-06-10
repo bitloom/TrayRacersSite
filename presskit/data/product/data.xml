@@ -57,8 +57,8 @@
       <value>FREE</value>
     </price>
     <price>
-      <currency>Supporter's Pack GBP</currency>
-      <value>4.99</value>
+      <currency>Supporter's Pack</currency>
+      <value>TBC</value>
     </price>
   </prices>
 
@@ -108,7 +108,7 @@
   <trailers>
     <trailer>
       <name>Tray Racers! Reveal Trailer</name>
-      <!-- <youtube>_oXXIllYDeY</youtube> -->
+      <youtube>V6Ov-hrI-v0</youtube>
     </trailer>
   </trailers>
     
