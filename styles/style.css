@@ -169,6 +169,49 @@ a {
     margin: auto;
 }
 
+.discordCaption {
+    padding-top: 1.0vw;
+    padding-bottom: 1.0vw;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: #7289DA;
+    color: var(--lightText);
+    border: 2px solid #7289DA;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+    .discordCaption:hover {
+        text-decoration: none;
+        color: var(--linkTextHover);
+        transform: scale(1.05, 1.05);
+    }
+
+    .discordCaption:visited {
+        text-decoration: none;
+        color: var(--lightText);
+    }
+
+.discordLink {
+    text-decoration: none;
+    color: var(--lightText);
+    transform: scale(1, 1);
+    transition: transform 0.3s;
+}
+
+    .discordLink:hover {
+        text-decoration: none;
+        color: var(--linkTextHover);
+        transform: scale(1.05, 1.05);
+    }
+
+    .discordLink:visited {
+        text-decoration: none;
+        color: var(--lightText);
+    }
+
 .overviewText {
     padding-top: 1.0vw;
     padding-bottom: 1.0vw;
