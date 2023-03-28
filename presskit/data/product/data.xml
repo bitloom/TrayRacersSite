@@ -45,10 +45,10 @@
         <name>Nintendo Switch</name>
         <!-- ADD NINTENDO STORE URL TO TRAY RACERS. -->
     </platform>
-    <!--<platform>
-        <name>Itch.io (PC)</name>
-        <link>https://bitloomgames.itch.io/trayracers</link>
-    </platform>-->
+    <platform>
+        <name>Supporter's Pack (Steam)</name>
+        <link>https://store.steampowered.com/app/2005110/Tray_Racers_Supporters_Pack/</link>
+    </platform>
   </platforms>
 
   <prices>
@@ -56,9 +56,33 @@
       <currency>Base Game</currency>
       <value>FREE</value>
     </price>
-    <price>
-      <currency>Supporter's Pack</currency>
-      <value>TBC</value>
+      <price>
+          <currency>---</currency>
+          <value></value>
+      </price>
+      <price>
+          <currency>Tray Racers! Supporter's Pack</currency>
+          <value></value>
+      </price>
+      <price>
+          <currency>USD</currency>
+          <value>$5.99</value>
+      </price>
+      <price>
+          <currency>GBP</currency>
+          <value>£4.99</value>
+      </price>
+      <price>
+          <currency>EUR</currency>
+          <value>€5.89</value>
+      </price>
+      <price>
+          <currency>---</currency>
+          <value></value>
+      </price>
+      <price>
+      <currency>Info: </currency>
+      <value>The Tray Racers! Supporter’s Pack will launch alongside the free-to-play base game. This is a paid, cosmetics-only pack for those looking to broaden their customisation options with the Desert Fox and Robot characters! The Supporter’s Pack will be updated with new cosmetic options post-launch, and will be available day one on both Steam and Nintendo Switch.</value>
     </price>
   </prices>
 
