@@ -56,6 +56,11 @@ a {
     color: var(--linkText);
 }
 
+.imageLink {
+    color: var(--linkText);
+    text-decoration: none;
+}
+
     .bodyLink:hover {
         color: var(--linkTextHover);
     }
@@ -133,6 +138,25 @@ a {
     width: 35%;
     margin: 0;
     padding: 0;
+    transition: transform .2s;
+}
+
+.phogsLogo:hover {
+    transform: scale(1.1);
+}
+
+.platformLogo {
+    width: 15%;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15%;
+    transition: transform .2s;
+}
+
+.platformLogo:hover {
+    transform: scale(1.1);
 }
 
 .fullscreenImage {

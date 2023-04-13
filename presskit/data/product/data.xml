@@ -33,7 +33,7 @@
   -->
 
   <release-dates>
-    <release-date>April 13th 2023</release-date>
+    <release-date>April 13th 2023 (Out Now!)</release-date>
   </release-dates>
 
   <platforms>
@@ -42,8 +42,12 @@
         <link>https://store.steampowered.com/app/1913870/Tray_Racers/</link>
     </platform>
     <platform>
-        <name>Nintendo Switch</name>
-        <!-- ADD NINTENDO STORE URL TO TRAY RACERS. -->
+        <name>Nintendo Switch (EU)</name>
+        <link>https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Tray-Racers--2366035.html</link>
+    </platform>
+    <platform>
+        <name>Nintendo Switch (NA)</name>
+        <link>https://www.nintendo.com/store/products/tray-racers-switch/</link>
     </platform>
     <platform>
         <name>Supporter's Pack (Steam)</name>
@@ -82,7 +86,7 @@
       </price>
       <price>
       <currency>Info: </currency>
-      <value>The Tray Racers! Supporter’s Pack will launch alongside the free-to-play base game. This is a paid, cosmetics-only pack for those looking to broaden their customisation options with the Desert Fox and Robot characters! The Supporter’s Pack will be updated with new cosmetic options post-launch, and will be available day one on both Steam and Nintendo Switch.</value>
+      <value>Alongside the free-to-play base game, the Tray Racers! Supporter’s Pack is a paid, cosmetics-only pack for those looking to broaden their customisation options with the Desert Fox and Robot characters! The Supporter’s Pack will be updated with new cosmetic options post-launch, available on both Steam and Nintendo Switch.</value>
     </price>
   </prices>
 
@@ -131,8 +135,8 @@
 
   <trailers>
     <trailer>
-      <name>Tray Racers! Release Date Reveal Trailer</name>
-      <youtube>6fg4CTQbNRg</youtube>
+        <name>Tray Racers! Launch Trailer</name>
+        <youtube>P-Bzw7IwqHk</youtube>
     </trailer>
   </trailers>
     
