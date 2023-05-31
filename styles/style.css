@@ -7,11 +7,15 @@
     --skyblueBackground: #3c61c6;
     --sandyBackground: #ff9472;
     --sandyForeground: #fff0cc;
+    --darkBackground: #351a30;
     --darkText: #3c2b24;
     --linkText: cornflower;
     --linkTextHover: lightskyblue;
     --lightText: #ffffff;
     --lightTextHover: pink;
+    --greenText: #9bc624;
+    --greenTextHover: #b5e041;
+    --yellowBackground: #ffdf3b;
 }
 
 html, body {
@@ -75,9 +79,19 @@ a {
     overflow: hidden;
 }
 
+#bannerImageToad {
+    height: 85vh;
+    width: auto;
+    min-height: 59.8958333333vw;
+    min-width: 100%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
 #overview {
     position: relative;
-    top: 60vh;
+    top: 62.5vh;
     color: var(--darkText);
     background-color: var(--sandyForeground);
     text-align: center;
@@ -205,6 +219,7 @@ a {
     border: 2px solid #7289DA;
     border-radius: 15px;
     text-decoration: none;
+    transition: transform .2s;
 }
 
     .discordCaption:hover {
@@ -233,6 +248,28 @@ a {
 
     .discordLink:visited {
         text-decoration: none;
+        color: var(--lightText);
+    }
+
+.greenLink {
+    color: var(--greenText);
+    font-size: 1.25em;
+    transition: font-size 0.3s;
+}
+
+    .greenLink:hover {
+        color: var(--greenTextHover);
+        font-size: 1.3em;
+    }
+
+.greengamejamCaption {
+    background-color: var(--greenText);
+    border: 2px solid var(--greenText);
+    transition: transform 0.3s;
+}
+
+    .greengamejamCaption:hover {
+        background-color: var(--greenTextHover);
         color: var(--lightText);
     }
 
