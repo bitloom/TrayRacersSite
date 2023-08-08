@@ -16,6 +16,8 @@
     --greenText: #9bc624;
     --greenTextHover: #b5e041;
     --yellowBackground: #ffdf3b;
+    --orangeBackground: #f28939;
+    --orangeTextHover: #f2e53a;
 }
 
 html, body {
@@ -206,6 +208,54 @@ a {
     text-align: center;
     margin: auto;
 }
+
+.trayCaption {
+    padding-top: 1.0vw;
+    padding-bottom: 1.0vw;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: var(--orangeBackground);
+    color: var(--lightText);
+    border: 2px solid var(--orangeBackground);
+    border-radius: 15px;
+    text-decoration: none;
+    transition: transform .2s;
+    transform: scale(1.5, 1.5) rotate(2deg);
+}
+
+    .trayCaption:hover {
+        text-decoration: none;
+        color: var(--orangeTextHover);
+        transform: scale(1.55, 1.55);
+        animation: none;
+    }
+
+    .trayCaption:visited {
+        text-decoration: none;
+        color: var(--lightText);
+        transform: scale(1.55, 1.55);
+    }
+
+.trayLink {
+    text-decoration: none;
+    color: var(--lightText);
+    transform: scale(1.5, 1.5);
+    transition: transform 0.3s;
+}
+
+    .trayLink:hover {
+        text-decoration: none;
+        color: var(--orangeTextHover);
+        transform: scale(1.55, 1.55);
+    }
+
+    .trayLink:visited {
+        text-decoration: none;
+        color: var(--lightText);
+        transform: scale(1.55, 1.55);
+    }
 
 .discordCaption {
     padding-top: 1.0vw;
